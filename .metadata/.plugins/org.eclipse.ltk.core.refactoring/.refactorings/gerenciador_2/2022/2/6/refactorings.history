@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;formAlteraEmpresa.jsp, formNovaEmpresa.jsp, listaEmpresas.jsp, novaEmpresaCriada.jsp&apos; to &apos;view&apos;" description="Move 4 resources to &apos;view&apos;" destination="webapp/WEB-INF/view" element1="webapp/formAlteraEmpresa.jsp" element2="webapp/formNovaEmpresa.jsp" element3="webapp/listaEmpresas.jsp" element4="webapp/novaEmpresaCriada.jsp" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="4" stamp="1643745364177" updateReferences="true"/>
+</session>

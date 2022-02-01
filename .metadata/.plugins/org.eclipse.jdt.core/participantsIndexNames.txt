@@ -1,0 +1,7 @@
+INDEX VERSION 1.131
+C:\Users\marce\Documents\FormacaoJavaWeb\javaServletProject2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1478351012.index
+\gerenciador_1\src\main\java
+C:\Users\Erick\Documents\javaServletProject2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3599949639.index
+\gerenciador_2\src\main\java
+C:\Users\Erick\Documents\javaServletProject2\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2119605873.index
+\gerenciador_2\src\main\java

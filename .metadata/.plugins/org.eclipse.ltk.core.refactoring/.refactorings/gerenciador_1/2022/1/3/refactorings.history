@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;gerenciador_1/src/main/java/br.com.alura.modelo&apos;&#x0D;&#x0A;- Original project: &apos;gerenciador_1&apos;&#x0D;&#x0A;- Destination element: &apos;gerenciador_1/src/main/java/br.com.alura.modelo&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     br.com.alura.servlet.Empresa.java&#x0D;&#x0A;     br.com.alura.servlet.Banco.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src\/main\/java&lt;br.com.alura.modelo" element1="/src\/main\/java&lt;br.com.alura.servlet{Empresa.java" element2="/src\/main\/java&lt;br.com.alura.servlet{Banco.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1642185874398" units="2" version="1.0"/>
+</session>
