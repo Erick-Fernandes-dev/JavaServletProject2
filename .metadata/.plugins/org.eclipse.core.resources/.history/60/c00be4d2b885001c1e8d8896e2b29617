@@ -80,22 +80,19 @@ public class Banco  {
 	}
 	
 	public Usuario existeUsuario(String login, String senha) {
-//		
-//		for (Usuario usuario : listaUsuarios) {
-//			
-//			if (usuario.getLogin().equals(login) && usuario.getSenha().equals(senha)) {
-//				
-//				return usuario;	
-//			}
-//			
-//		}
 		
-		for (Usuario usuario : Banco.listaUsuarios) {
+		
+		for (Usuario usuario : listaUsuarios) {
 			
-			if (usuario.ehIgual(login, senha)) return usuario;
+			if (usuario.getLogin().equals(login) && usuario.getSenha().equals(senha)) {
+				
+				return usuario;	
+			}
 			
 		}
+		
 		return null;
+		
 	}
 
 }
