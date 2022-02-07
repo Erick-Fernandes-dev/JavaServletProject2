@@ -21,13 +21,16 @@ public class UnicaEntradaServlet extends HttpServlet {
 			throws ServletException, IOException {
 		String paramAcao = request.getParameter("acao");
 		
+		//Autorizando acesso
 		HttpSession sessao = request.getSession();
 		boolean usuarioNaoEstaLogado = (sessao.getAttribute("usuarioLogado") == null);
-		boolean ehUmaAcaoProtegida = paramAcao.equals("ListaEmpresas");
+		boolean ehUmaAcaoProtegida = !(paramAcao.equals("Login") || paramAcao.equals("LoginForm"));
 		
 		if (ehUmaAcaoProtegida && usuarioNaoEstaLogado) {
 			response.sendRedirect("entrada?acao=LoginForm");
+			return;
 		}
+		// fim da autorização
 		
 		String nomeClasse = "br.com.alura.acao." + paramAcao;
 		String nome;

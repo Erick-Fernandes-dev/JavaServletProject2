@@ -16,8 +16,14 @@
 <title>Insert title here</title> 
 </head>
 <body>
+	
+	<c:import url="logout-parcial.jsp"></c:import>
 
 	Usuario logado: ${ usuarioLogado.login }
+	
+	<br>
+	<br>
+	<br>
 
 	<c:if test="${ not empty empresa }">
 	
