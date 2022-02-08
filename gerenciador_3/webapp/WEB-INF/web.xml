@@ -26,7 +26,6 @@
 		<url-pattern>/entrada</url-pattern>
 
 	</filter-mapping>
-
 	<filter>
 
 		<filter-name>AF</filter-name>

@@ -15,7 +15,7 @@ import javax.servlet.http.HttpSession;
 
 import br.com.alura.acao.Acao;
 
-@WebFilter("/entrada")
+//@WebFilter("/entrada")
 public class ControladorFilter implements Filter {
 
 	public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain chain)
