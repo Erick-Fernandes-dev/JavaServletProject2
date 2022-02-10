@@ -15,4 +15,5 @@
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="br.com.alura.modelo.Banco"/>
     <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="org.apache.http.client.fluent.Request"/>
 </qualifiedTypeNameHistroy>
